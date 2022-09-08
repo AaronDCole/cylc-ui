@@ -114,12 +114,6 @@ export default {
       get () {
         return this.$store.state.app.drawer
       },
-      set (val) {
-        if (val) {
-          this.navigation.width = Number(this.navigation.width.replace('px', '')) < 260 ? '260px' : this.navigation.width
-        }
-        this.$store.commit('app/setDrawer', val)
-      }
     }
   },
   methods: {
@@ -140,7 +134,7 @@ export default {
         ? 'right'
         : 'left'
       const f = direction === 'right' ? document.body.scrollWidth - e.clientX : e.clientX
-      el.style.width = f + 'px'
+      el.style.width = f < 150 ? '150px' : f + 'px'
     },
     setEvents () {
       const minSize = this.navigation.borderSize
