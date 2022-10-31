@@ -2967,9 +2967,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@vue/test-utils@npm:1.2.2"
+"@vue/test-utils@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "@vue/test-utils@npm:1.3.1"
   dependencies:
     dom-event-types: ^1.0.0
     lodash: ^4.17.15
@@ -2977,7 +2977,7 @@ __metadata:
   peerDependencies:
     vue: 2.x
     vue-template-compiler: ^2.x
-  checksum: a373ffe4fa35f6d7d64eb5547ba656f8445b23923a5735d64b378061b378515139044fe73d931de1130fd310ad692e575f4826db03a4289737eaa4ff5a45dc98
+  checksum: 7e15bf405945722bda28e7e90ab15ebe6719dab68cba3672ef6f15cadbe447025b67dec37c34db562596a5a992ed48d90ad759a31d3006aef787776127a0e330
   languageName: node
   linkType: hard
 
@@ -6172,7 +6172,7 @@ __metadata:
     "@vue/cli-plugin-eslint": ^4.5.13
     "@vue/cli-plugin-unit-mocha": ^4.5.13
     "@vue/cli-service": ^4.5.13
-    "@vue/test-utils": ^1.2.2
+    "@vue/test-utils": ^1.3.1
     autoprefixer: ^9.8.6
     axios: ^0.24.0
     axios-fetch: ^1.1.0
